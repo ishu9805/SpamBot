@@ -1,6 +1,6 @@
 import asyncio
-from RiZoeLXSpam import Riz, SUDO_USERS
-from RiZoeLXSpam import CMD_HNDLR as hl
+from __init__ import Riz, SUDO_USERS
+from __init__ import CMD_HNDLR as hl
 import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
