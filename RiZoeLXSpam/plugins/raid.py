@@ -6,7 +6,7 @@ import random
 from telethon import events
 from telethon import functions, types
 from telethon.tl.functions.messages import ImportChatInviteRequest as Get
-from RiZoeLXSpam import Riz, SUDO_USERS, OWNER_ID
+from __init__ import Riz, SUDO_USERS, OWNER_ID
 from resources.data import RAID, REPLYRAID, RiZoeLX
 from RiZoeLXSpam import CMD_HNDLR as hl
 
