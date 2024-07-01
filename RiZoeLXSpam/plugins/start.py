@@ -3,8 +3,8 @@ import os
 from telethon.tl.functions.users import GetFullUserRequest
 from telethon import events, Button
 from telethon.tl.custom import button
-from .. import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10, ALIVE_PIC, OWNER_ID
-from RiZoeLXSpam.plugins.help import *
+from .. import Riz, ALIVE_PIC, OWNER_ID
+from plugins.help import *
 
 
 RIZ_IMG = ALIVE_PIC if ALIVE_PIC else "https://telegra.ph/file/ba87c58f01a6fcb5ef512.jpg"
@@ -33,16 +33,6 @@ RizX_Button = [
 
 
 @Riz.on(events.NewMessage(outgoing=True))
-@Riz2.on(events.NewMessage(outgoing=True))
-@Riz3.on(events.NewMessage(outgoing=True))
-@Riz4.on(events.NewMessage(outgoing=True))
-@Riz5.on(events.NewMessage(outgoing=True))
-@Riz6.on(events.NewMessage(outgoing=True))
-@Riz7.on(events.NewMessage(outgoing=True))
-@Riz7.on(events.NewMessage(outgoing=True))
-@Riz8.on(events.NewMessage(outgoing=True))
-@Riz9.on(events.NewMessage(outgoing=True))
-@Riz10.on(events.NewMessage(outgoing=True))
 async def start(event):              
     if event.is_private:
        RizBot = await event.client.get_me()
