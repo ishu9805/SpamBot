@@ -8,7 +8,7 @@ from pathlib import Path
 from utils import load_plugins
 import logging
 from telethon import events
-from __init__ import Riz, Riz2, Riz3, Riz4, Riz5, Riz6, Riz7, Riz8, Riz9, Riz10
+from __init__ import Riz
 
 logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s',
                     level=logging.WARNING)
@@ -28,29 +28,3 @@ print("Enjoy! Do visit @RiZoeLX")
 if __name__ == "__main__":
     Riz.run_until_disconnected()
     
-if __name__ == "__main__":
-    Riz2.run_until_disconnected()
-
-if __name__ == "__main__":
-    Riz3.run_until_disconnected()
-    
-if __name__ == "__main__":
-    Riz4.run_until_disconnected()
-
-if __name__ == "__main__":
-    Riz5.run_until_disconnected()
-    
-if __name__ == "__main__":
-    Riz6.run_until_disconnected()
-    
-if __name__ == "__main__":
-    Riz7.run_until_disconnected()
-
-if __name__ == "__main__":
-    Riz8.run_until_disconnected()
-    
-if __name__ == "__main__":
-    Riz9.run_until_disconnected()
-
-if __name__ == "__main__":
-    Riz10.run_until_disconnected()    
