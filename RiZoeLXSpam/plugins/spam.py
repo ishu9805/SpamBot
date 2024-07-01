@@ -17,8 +17,8 @@ import asyncio
 import random
 import os
 from telethon import events, Button
-from RiZoeLXSpam import Riz, SUDO_USERS, OWNER_ID
-from RiZoeLXSpam import CMD_HNDLR as hl
+from __init__ import Riz, SUDO_USERS, OWNER_ID
+from __init__ import CMD_HNDLR as hl
 from telethon.tl.functions.messages import GetStickerSetRequest
 from telethon.tl.types import InputStickerSetID, InputStickerSetShortName
 from telethon import utils
