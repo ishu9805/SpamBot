@@ -3,10 +3,10 @@ import asyncio
 import sys
 import git
 import heroku3
-from RiZoeLXSpam import Riz, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
-from RiZoeLXSpam import CMD_HNDLR as hl
+from __init__ import Riz, OWNER_ID, SUDO_USERS, HEROKU_APP_NAME, HEROKU_API_KEY, rizoelversion
+from __init__ import CMD_HNDLR as hl
 from telethon.tl.functions.users import GetFullUserRequest
-from RiZoeLXSpam import ALIVE_PIC, PING_MSG, ALIVE_MSG
+from __init__ import ALIVE_PIC, PING_MSG, ALIVE_MSG
 from telethon import events, version, Button
 from telethon.tl.custom import button
 from time import time
