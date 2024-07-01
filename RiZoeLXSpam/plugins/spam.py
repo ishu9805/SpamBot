@@ -157,7 +157,6 @@ async def pspam(e):
             await e.reply(usage, parse_mode=None, link_preview=None )
 
 @Riz.on(events.NewMessage(incoming=True, pattern=r"\%shang(?: |$)(.*)" % hl))
-    usage = f"**MODULE NAME : HANG SPAM** \n\n Cmd : `{hl}hang <count>`"
     if e.sender_id in SUDO_USERS:
         RiZoeL = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(RiZoeL) == 1:
